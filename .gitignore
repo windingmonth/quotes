@@ -1,0 +1,17 @@
+################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/.vs
+/Quotes.Api/Quotes.Api/bin/
+/Quotes.Api/Quotes.Api/obj/
+/Quotes.Api/Quotes.Api/logs/
+/Quotes.Api/Quotes.Api.ServiceInterface/bin/
+/Quotes.Api/Quotes.Api.ServiceInterface/obj/
+/Quotes.Api/Quotes.Api.ServiceInterface/bin/
+/Quotes.Api/Quotes.Api.Model/obj/
+/packages
+*.user
+mscorlib.pdb/
+/.idea
+/app.config

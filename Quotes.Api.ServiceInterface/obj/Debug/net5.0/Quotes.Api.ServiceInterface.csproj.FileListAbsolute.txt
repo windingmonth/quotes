@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\qianduan\Quotes\Quotes.Api.ServiceInterface\bin\Debug\net5.0\Quotes.Api.ServiceInterface.deps.json
+C:\Users\Admin\Desktop\qianduan\Quotes\Quotes.Api.ServiceInterface\bin\Debug\net5.0\Quotes.Api.ServiceInterface.dll
+C:\Users\Admin\Desktop\qianduan\Quotes\Quotes.Api.ServiceInterface\bin\Debug\net5.0\ref\Quotes.Api.ServiceInterface.dll
+C:\Users\Admin\Desktop\qianduan\Quotes\Quotes.Api.ServiceInterface\bin\Debug\net5.0\Quotes.Api.ServiceInterface.pdb
+C:\Users\Admin\Desktop\qianduan\Quotes\Quotes.Api.ServiceInterface\bin\Debug\net5.0\Quotes.Api.Model.dll
+C:\Users\Admin\Desktop\qianduan\Quotes\Quotes.Api.ServiceInterface\bin\Debug\net5.0\Quotes.Api.Model.pdb
+C:\Users\Admin\Desktop\qianduan\Quotes\Quotes.Api.ServiceInterface\obj\Debug\net5.0\Quotes.Api.ServiceInterface.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\qianduan\Quotes\Quotes.Api.ServiceInterface\obj\Debug\net5.0\Quotes.Api.ServiceInterface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\qianduan\Quotes\Quotes.Api.ServiceInterface\obj\Debug\net5.0\Quotes.Api.ServiceInterface.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\qianduan\Quotes\Quotes.Api.ServiceInterface\obj\Debug\net5.0\Quotes.Api.ServiceInterface.AssemblyInfo.cs
+C:\Users\Admin\Desktop\qianduan\Quotes\Quotes.Api.ServiceInterface\obj\Debug\net5.0\Quotes.Api.ServiceInterface.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\qianduan\Quotes\Quotes.Api.ServiceInterface\obj\Debug\net5.0\Quotes.Api.ServiceInterface.csproj.CopyComplete
+C:\Users\Admin\Desktop\qianduan\Quotes\Quotes.Api.ServiceInterface\obj\Debug\net5.0\Quotes.Api.ServiceInterface.dll
+C:\Users\Admin\Desktop\qianduan\Quotes\Quotes.Api.ServiceInterface\obj\Debug\net5.0\ref\Quotes.Api.ServiceInterface.dll
+C:\Users\Admin\Desktop\qianduan\Quotes\Quotes.Api.ServiceInterface\obj\Debug\net5.0\Quotes.Api.ServiceInterface.pdb

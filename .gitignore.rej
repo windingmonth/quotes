@@ -1,0 +1,7 @@
+diff a/.gitignore b/.gitignore	(rejected hunks)
+@@ -17,2 +17,3 @@
+ /packages
+\ No newline at end of file
+ *.user
++*.pdb
+\ No newline at end of file
