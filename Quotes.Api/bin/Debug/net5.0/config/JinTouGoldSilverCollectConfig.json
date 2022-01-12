@@ -1,0 +1,14 @@
+﻿{
+  "ServiceUrl": "https://api.jijinhao.com/quoteCenter/realTime.htm?codes=",
+  "CollectSymbols": [ "JO_92233", "JO_92232", "JO_92229", "JO_92230", "JO_42760", "JO_42761", "JO_42762", "JO_52644" ],
+  "RemoteSymbolMap": {
+    "XAU": "XAU",
+    "XAG": "XAG",
+    "XPT": "XPT",
+    "XPD": "XPD",
+    "CNYAAU": "CNYAAU",
+    "CNYAAG": "CNYAAG",
+    "CNYAPT": "CNYAPT",
+    "CNYAPD": "CNYAPD"
+  }
+}

@@ -51,3 +51,5 @@ C:\Users\Admin\Desktop\qianduan\Quotes\Quotes.Api\obj\Debug\net5.0\Quotes.Api.dl
 C:\Users\Admin\Desktop\qianduan\Quotes\Quotes.Api\obj\Debug\net5.0\ref\Quotes.Api.dll
 C:\Users\Admin\Desktop\qianduan\Quotes\Quotes.Api\obj\Debug\net5.0\Quotes.Api.pdb
 C:\Users\Admin\Desktop\qianduan\Quotes\Quotes.Api\obj\Debug\net5.0\Quotes.Api.genruntimeconfig.cache
+C:\Users\Admin\Desktop\qianduan\Quotes\Quotes.Api\bin\Debug\net5.0\config\JinTouGoldSilverCollectConfig.json
+C:\Users\Admin\Desktop\qianduan\Quotes\Quotes.Api\bin\Debug\net5.0\config\SinaExchangeCollectConfig.json

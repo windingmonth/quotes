@@ -22,6 +22,15 @@
     <ProjectReference Include="..\Quotes.Api.ServiceInterface\Quotes.Api.ServiceInterface.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="config\JinTouGoldSilverCollectConfig.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="config\SinaExchangeCollectConfig.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
   <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 
 </Project>
