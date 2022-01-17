@@ -1,15 +1,11 @@
-﻿using Quotes.Api.ServiceInterface.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Quotes.Api.ServiceInterface.Impl;
+using Quotes.Api.ServiceInterface.Interfaces;
 
 namespace Quotes.Api.ServiceInterface.Factory
 {
     public class QuotesCollectFactory
     {
-        public static IQuotesCollect CreateQuotesCollect(string label) 
+        public static IQuotesCollect CreateQuotesCollect(string label)
         {
             IQuotesCollect quotesCollect = label switch
             {

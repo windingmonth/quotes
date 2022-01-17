@@ -28,3 +28,22 @@
 		[Symbol] ASC
 	)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 	 end
+
+
+
+--mysql
+CREATE TABLE IF NOT EXISTS `quotesrecord`(
+   `Id` INT UNSIGNED AUTO_INCREMENT,
+   `Symbol` VARCHAR(64) NULL,
+   `LatestPrice` VARCHAR(64) NULL,
+   `OpeningPrice` VARCHAR(64) NULL,
+   `HighestPrice` VARCHAR(64) NULL,
+   `LowestPrice` VARCHAR(64) NULL,
+   `YesterdayPrice` VARCHAR(64) NULL,
+   `QuoteChange` VARCHAR(64) NULL,
+   `CreatedOn` DATE NULL,
+   `CreatedBy` VARCHAR(64) NULL,
+   `UpdatedOn` DATE NULL,
+   `UpdatedBy` VARCHAR(64) NULL,
+   PRIMARY KEY ( `Id` )
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;

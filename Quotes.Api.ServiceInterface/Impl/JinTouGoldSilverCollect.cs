@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace Quotes.Api.ServiceInterface
+namespace Quotes.Api.ServiceInterface.Impl
 {
     public class JinTouGoldSilverCollect : IQuotesCollect
     {
@@ -63,7 +63,9 @@ namespace Quotes.Api.ServiceInterface
                             HighestPrice = Jo.q3,       //最高价
                             LowestPrice = Jo.q4,        //最低价
                             YesterdayPrice = Jo.q2,     //昨收价
-                            QuoteChange = Jo.q80        //涨跌幅
+                            QuoteChange = Jo.q80,       //涨跌幅
+                            CreatedOn = DateTime.Now,
+                            UpdatedOn = DateTime.Now
                         });
                     }
                     catch (Exception e)

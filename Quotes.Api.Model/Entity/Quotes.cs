@@ -12,5 +12,9 @@ namespace Quotes.Api.Model.Entity
         public string LowestPrice { get; set; }      //最低价
         public string YesterdayPrice { get; set; }   //昨收价
         public string QuoteChange { get; set; }      //涨跌幅
+        public DateTime? CreatedOn { get; set; }
+        public string CreatedBy { get; set; }
+        public DateTime? UpdatedOn { get; set; }
+        public string UpdatedBy { get; set; }
     }
 }

@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace Quotes.Api.ServiceInterface
+namespace Quotes.Api.ServiceInterface.Impl
 {
     public class SinaExchangeCollect : IQuotesCollect
     {
@@ -66,6 +66,8 @@ namespace Quotes.Api.ServiceInterface
                         LowestPrice = fxArr[7],    //最低价
                         YesterdayPrice = fxArr[8], //昨收价
                         QuoteChange = fxArr[11],   //涨跌幅
+                        CreatedOn = DateTime.Now,
+                        UpdatedOn = DateTime.Now
                     });
                 }
                 catch (Exception e)

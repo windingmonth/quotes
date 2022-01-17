@@ -6,21 +6,21 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Quotes.Api.ServiceInterface;
 using ServiceStack;
+using ServiceStack.Data;
+using ServiceStack.OrmLite;
 using ServiceStack.Text;
 using System;
 
 namespace Quotes.Api
 {
-    public class Startup
+    public class Startup : ModularStartup
     {
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
 
-        public IConfiguration Configuration { get; }
-
-        public void ConfigureServices(IServiceCollection services)
+        public new void ConfigureServices(IServiceCollection services)
         {
         }
 
@@ -63,6 +63,15 @@ namespace Quotes.Api
             });
 
             Plugins.Add(new AutoQueryDataFeature());
+
+            var connectionString = ((NetCoreAppSettings)this.AppSettings).Configuration["ConnectionString"];
+            container.Register((Func<Container, IDbConnectionFactory>)((Container c) => new OrmLiteConnectionFactory(connectionString, MySqlDialect.Provider)));
+
+            Plugins.Add(new AutoQueryFeature
+            {
+                MaxLimit = 0xFFFF,
+                IncludeTotal = false
+            });
         }
     }
 }

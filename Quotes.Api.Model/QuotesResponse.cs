@@ -1,6 +1,5 @@
 ﻿namespace Quotes.Api.Model
 {
-
     public class JOResponse
     {
         public string flag { get; set; }

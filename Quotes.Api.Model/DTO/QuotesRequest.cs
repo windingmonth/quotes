@@ -4,7 +4,7 @@ using ServiceStack;
 namespace Quotes.Api.Model.DTO
 {
     [Route("/Quotes/List")]
-    public class QuotesDto : QueryDb<QuotesRecord>
+    public class QuotesRequest : QueryDb<QuotesRecord>
     {
         public string Symbol { get; set; }
     }
