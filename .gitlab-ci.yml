@@ -1,0 +1,23 @@
+image: docker:latest
+
+services:
+  - docker:dind
+
+before_script:
+  - docker info
+  - docker login -u windingmonth -p Xh7tce4ku
+
+# 定义 stages
+stages:
+  - build_publish
+
+# 定义 job
+build-deploy-image:
+  stage: build_publish
+  script:
+    - docker login -u windingmonth -p Xh7tce4ku
+    - docker build -t windingmonth/quotes .
+    - docker push windingmonth/quotes
+    - echo "finish"
+
+    
