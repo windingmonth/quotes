@@ -4,7 +4,7 @@ namespace Quotes.Api.Model.Entity
 {
     public class QuotesRecord
     {
-        public Guid? Id { get; set; }
+        //public Guid? Id { get; set; }
         public string Symbol { get; set; }           //名称
         public string LatestPrice { get; set; }      //最新价
         public string OpeningPrice { get; set; }     //开盘价
